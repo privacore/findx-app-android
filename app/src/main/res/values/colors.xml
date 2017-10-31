@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<resources>
+    <color name="colorPrimary">#FF363B40</color>
+    <color name="colorPrimaryDark">#6c3b6e</color>
+    <color name="colorAccent">#ffffffff</color>
+
+    <color name="colorGradientStart">#1e93d1</color>
+    <color name="colorGradientCenter">#1e93d1</color>
+    <color name="colorGradientEnd">#1e93d1</color>
+
+    <color name="colorActiveGradientStart">#1e93d1</color>
+    <color name="colorActiveGradientCenter">#1e93d1</color>
+    <color name="colorActiveGradientEnd">#1e93d1</color>
+
+    <color name="colorProgressGradientStart">#1d93d1</color>
+    <color name="colorProgressGradientEnd">#1d93d1</color>
+
+    <color name="coloInactiveGradientStart">#1e93d1</color>
+    <color name="colorInactiveGradientCenter">#1e93d1</color>
+    <color name="colorInactiveGradientEnd">#1e93d1</color>
+
+    <color name="colorAutocompleteHighlight">#1e93d1</color>
+
+    <color name="colorFloatingActionButtonTint">#96368D</color>
+
+    <color name="colorUrlInputBackground">#B2000000</color>
+
+    <color name="snackbarBackground">#33FFFFFF</color>
+    <color name="snackbarTextColor">#ffffffff</color>
+
+    <color name="searchHintTextColor">#ffffffff</color>
+
+    <color name="onboarding_indicator_default">#7FFFFFFF</color>
+    <color name="onboarding_indicator_selected">#FFFFFFFF</color>
+
+    <color name="download_dialog_text">#FF00A4DC</color>
+
+    <color name="add_to_homescreen_button_text">#FF00A4DC</color>
+    <color name="add_to_homescreen_text">#FFFFFF</color>
+
+    <color name="inactive_text">#7FFFFFFF</color>
+</resources>

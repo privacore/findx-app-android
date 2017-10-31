@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="menu_elevation">8dp</dimen>
+
+    <dimen name="floating_action_button_margin">16dp</dimen>
+
+    <item name="match_parent" type="dimen">-1</item>
+    <!-- We specifically want match_parent here. If we set -1, the build breaks since integers aren't allowed.
+         If we set -1dp, the UI breaks (i.e. we don't get match_parent). For some reason adding another
+         redirection via an existing attribute works... -->
+    <dimen name="firstrun_container_width">@dimen/match_parent</dimen>
+
+    <!-- The custom tabs spec defines a maximum close button size, we need to define this here to enforce that sizing. -->
+    <dimen name="customtabs_toolbar_icon_size">24dp</dimen>
+
+    <!-- We are using a NavigationView in our context menu and it adds padding that we do not want. -->
+    <dimen name="design_navigation_padding_top_default" tools:override="true">0dp</dimen>
+    <dimen name="design_navigation_separator_vertical_padding" tools:override="true">0dp</dimen>
+    <dimen name="design_navigation_padding_bottom" tools:override="true">0dp</dimen>
+
+    <dimen name="firstrun_card_width">300dp</dimen>
+    <dimen name="firstrun_card_height">460dp</dimen>
+</resources>
